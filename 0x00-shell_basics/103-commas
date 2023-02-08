@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -vap1 |tr '\n' ', '
+ls -vamp

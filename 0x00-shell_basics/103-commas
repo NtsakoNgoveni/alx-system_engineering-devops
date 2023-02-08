@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -vaF1 |tr '\n' ','
+ls -dFXa1 |ls -Xa1|ls -Xa|ls -av|tr '\n' ','

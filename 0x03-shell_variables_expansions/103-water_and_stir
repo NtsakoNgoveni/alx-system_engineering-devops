@@ -1,0 +1,2 @@
+#!/bin/bash
+result="$WATER + $STIR"|printf "%0\n" $result 

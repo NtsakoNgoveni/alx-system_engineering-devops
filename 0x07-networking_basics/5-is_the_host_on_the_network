@@ -2,7 +2,7 @@
 # checks ping between device and provided IP address
 
 IP=$1
-if [ -n "$IP" ]
+if [ -z "$IP" ]
 then
 	fn=$(basename "$0")
 	echo "Usage: ${fn} {IP_ADDRESS}"
